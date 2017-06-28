@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsListComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    //
+  }
 
-  ngOnInit() {
+  public ngOnInit() {
+    //
   }
 
 }
