@@ -1,6 +1,4 @@
-import { Project } from './project';
-
-export interface Stat {
+export interface MemberStat {
   project_id: string;
   project_name: string;
   overtime?: number;

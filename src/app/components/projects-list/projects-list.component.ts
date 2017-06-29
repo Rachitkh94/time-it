@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-projects-list',
@@ -7,11 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsListComponent implements OnInit {
 
+  @Input() public items;
+
   constructor() {
     //
   }
 
   public ngOnInit() {
+    //
+  }
+
+  public onArchiveAction() {
+    //
+  }
+
+  public onActivateAction() {
+    //
+  }
+
+  public onRemoveAction() {
     //
   }
 

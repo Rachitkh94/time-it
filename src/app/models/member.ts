@@ -1,9 +1,9 @@
-import { Stat } from './stat';
+import { MemberStat } from './member-stat';
 
 export interface Member {
   id: string;
   name: string;
-  stats: Stat[];
+  stats: MemberStat[];
   report_status: boolean;
   report?: 'string';
 }
