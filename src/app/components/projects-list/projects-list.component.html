@@ -1,6 +1,6 @@
 <div class="mat-elevation-z2">
   <table>
-    <app-projects-list-item (remove)="onRemoveAction()" (reactivate)="onReactivateAction()" (archive)="onArchiveAction()" *ngFor="let item of items" [data]="item"></app-project-list-item>
+    <app-projects-list-item (remove)="onRemoveAction()" (reactivate)="onReactivateAction()" (archive)="onArchiveAction()" *ngFor="let item of items" [data]="item"></app-projects-list-item>
     <tr>
       <td>
         <button md-button (click)="addProjectActionClickHandler()">Add Project</button>
