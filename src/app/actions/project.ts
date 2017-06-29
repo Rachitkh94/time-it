@@ -18,7 +18,7 @@ export class AddAction implements Action {
 export class RemoveAction implements Action {
   public readonly type = REMOVE;
 
-  constructor(public payload: Project) {
+  constructor(public payload: string) {
     //
   }
 }
@@ -41,3 +41,8 @@ export class ReactivateAction implements Action {
   }
 
 }
+export type Actions
+  = AddAction
+  | RemoveAction
+  | ReactivateAction
+  | ArchiveAction;
