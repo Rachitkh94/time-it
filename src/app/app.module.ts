@@ -21,7 +21,9 @@ import {
   RouterModule,
   PreloadAllModules
 } from '@angular/router';
-
+import {
+  MaterialModule
+} from '@angular/material';
 /*
  * Platform and Environment providers/directives/pipes
  */
@@ -70,6 +72,7 @@ type StoreType = {
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,
+    MaterialModule,
     RouterModule.forRoot(ROUTES, { useHash: false, preloadingStrategy: PreloadAllModules })
   ],
   /**

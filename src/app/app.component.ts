@@ -19,16 +19,22 @@ import { AppState } from './app.service';
     './app.component.css'
   ],
   template: `
+
     <main>
-      <router-outlet></router-outlet>
+      <router-outlet>
+        <app-toolbar *ngIf="showToolbar"></app-toolbar>
+      </router-outlet>
     </main>
   `
 })
 export class AppComponent implements OnInit {
+  public showToolbar: boolean;
 
   constructor(
     public appState: AppState
-  ) {}
+  ) {
+    this.showToolbar = true;
+  }
 
   public ngOnInit() {
     console.log('Initial App State', this.appState.state);
