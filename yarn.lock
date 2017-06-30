@@ -75,6 +75,14 @@
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@angularclass/hmr/-/hmr-1.2.2.tgz#46a18f89a1e94d05c268b83c9480e005f73fc265"
 
+"@ngrx/core@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/core/-/core-1.2.0.tgz#882b46abafa2e0e6d887cb71a1b2c2fa3e6d0dc6"
+
+"@ngrx/store@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-2.2.2.tgz#a00305a6452032a3385886a11ce529dce2dae65b"
+
 "@types/fs-extra@^3.0.0":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-3.0.3.tgz#1d66eb670ebf657e57c0fda014df340c19d8aa0c"
@@ -4654,6 +4662,10 @@ require-main-filename@^1.0.1:
 requires-port@1.0.x, requires-port@1.x.x:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+
+reselect@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
 
 resolve@1.1.x:
   version "1.1.7"

@@ -1,7 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+
+// Material Design Components Modules
+import {
+  MdButtonModule
+} from '@angular/material';
+
 import {
   NgModule,
   ApplicationRef
@@ -32,7 +38,6 @@ import { CONTAINERS } from './containers';
 import 'hammerjs';
 import '../styles/styles.scss';
 
-
 // Application wide providers
 const APP_PROVIDERS = [
   ...APP_RESOLVER_PROVIDERS,
@@ -62,6 +67,7 @@ type StoreType = {
    */
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES, { useHash: false, preloadingStrategy: PreloadAllModules })

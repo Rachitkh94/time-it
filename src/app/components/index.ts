@@ -1,4 +1,3 @@
-export * from './add-project-dialog';
 export * from './login-form';
 export * from './member-stats';
 export * from './project-details';
@@ -13,6 +12,7 @@ export const COMPONENTS = [
   C.MemberStatsComponent,
   C.ProjectDetailsComponent,
   C.ProjectsListComponent,
+  C.ProjectsListItemComponent,
   C.ToolbarComponent
 ];
 export const ENTRY_COMPONENTS = [

@@ -1,0 +1,11 @@
+<tr>
+  <td>{{this.data.name}}</td>
+  <td>{{this.data.desc}}</td>
+  <td><span *ngIf="this.data.active_status">Active</span><span *ngIf="!this.data.active_status">Archived</span></td>
+  <td>{{getTotalHours()}}</td>
+  <td>
+    <button md-button (click)='remove.emit(this.data)'>REMOVE</button>
+    <button md-button *ngIf='this.data.active_status' (click)='archive.emit(this.data)'>ARCHIVE</button>
+    <button md-button *ngIf='!this.data.active_status' (click)='reactivate.emit(this.data)'>REACTIVATE</button>
+  </td>
+</tr>
